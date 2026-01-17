@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Gabriela&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=UnifrakturMaguntia&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg,  #ffffff, #498ec6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.bot {
+    text-align: center;
+}
+
+
+h1 {
+   
+
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+
+
+}
+
+
+.app {
+    background: linear-gradient(135deg, #9fa9ac, #64bef1);
+    width: 780px;
+    padding: 200px;
+    border-radius: 45px;
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.2);
+    margin-right: 100px;
+    
+}
+
+button {
+    padding: 30px 65px;
+    border: none;
+    border-radius: 25px;
+    background: #8a8e92;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #f3f4ff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+.input{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: "Gabriela", serif;
+}
+ 
